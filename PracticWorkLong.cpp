@@ -3,9 +3,9 @@
 
 int main()
 {
-    std::string practic = "Okay";
+    std::string practic = "Teach";
     std::cout << practic << "\n";
     std::cout << practic.length() << "\n";
-    std::cout << practic[0] << "\n";
-    std::cout << practic[practic.size() - 1] << "\n";
+    std::cout << practic.front () << "\n";
+    std::cout << practic.back () << "\n";
 }
